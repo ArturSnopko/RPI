@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    max-width: 1440px;
+    background-image: url('img/backgroundDesign.jpg');
+    width: 1440px;
+    height: 6709px;
+    background-repeat: no-repeat;
+}
+.group1{
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url('img/group1background.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 669px;
+    align-items: flex-end;
+}
+
+.underline{
+    z-index: -1;
+}
+
+.logo{
+
+}
+
+.group2{
+
+}
+
+
+.group3{
+
+}
+
+.group4{
+
+}
+
+.group5{
+
+}
+
+.group6{
+
+}
