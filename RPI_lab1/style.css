@@ -20,6 +20,70 @@ body {
     z-index: -1;
 }
 
+.group1slider{
+    align-self: flex-start;
+    position: relative;
+    overflow: hidden;
+    width: 1000px;
+    height: 188px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.group1hat {
+    /*margin-top: 86px;*/
+    width: 1362px;
+    height: 307px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'SoletoBold';
+    src: url('fonts/Soleto-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SoletoRegular';
+    src: url('fonts/Soleto-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'TitlingGothicFBCond';
+    src: url('fonts/TitlingGothicFB Cond Bold.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Varveine';
+    src: url('fonts/VarveineRegular') format('ttf');
+}
+
+
+.group1hat ul{
+    margin-left: 49px;
+    margin-top: 14px;
+    font-family: "SoletoBold", sans-serif;
+    font-size:17pt;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.group1hat ul li {
+    margin-right: 17.25px;
+}
+
+.group1hat ul li a{
+    outline: none;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
 .logo{
 
 }
