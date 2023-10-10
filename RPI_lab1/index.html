@@ -2,33 +2,32 @@
 <html lang="en">
     <head>
         <script src="https://kit.fontawesome.com/44dde346af.js" crossorigin="anonymous"></script>
-       <meta charset="UTF-8">
-        <link rel = "stylesheet" href ="style.css">
+        <meta charset="UTF-8">
        <title>Hiking</title>
     </head>
     <body>
 
-    <div class = "group1">
+    <div id = "group1background" class = "group1">
+        <script src="jsGroup1.js" defer></script>
+        <link rel = "stylesheet" href ="styleGroup1.css">
+        <div class = "emptySpace">
+
+        </div>
         <div class = "underline">
             <img src="img/group1LineUnderBackground.png" alt="">
         </div>
 
         <div class ="group1slider">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
             <ul>
-                <li> <i class="fa-solid fa-chevron-left fa-2x"></i> </li>
+                <li> <i id = "group1left" class="fa-solid fa-chevron-left fa-2x"></i> </li>
                 <li>
                     <div class = group1numbersInsideSlider>
-                        <span class="prev-number">3</span>
-                        <span class="current-number">4</span>
-                        <span class="next-number">5</span>
+                        <span id = "group1prevnumb" class="prev-number">3</span>
+                        <span id = "group1curnumb" class="current-number">4</span>
+                        <span id = "group1nextnumb" class="next-number">5</span>
                     </div>
                 </li>
-                <li> <i class="fa-solid fa-chevron-right fa-2x"></i></li>
+                <li> <i id = "group1right" class="fa-solid fa-chevron-right fa-2x"></i></li>
 
             </ul>
         </div>
@@ -51,6 +50,7 @@
 
 
     <div class = "group2">
+        <link rel = "stylesheet" href ="styleGroup1.css">
 
     </div>
 
