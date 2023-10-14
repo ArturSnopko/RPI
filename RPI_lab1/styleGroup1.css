@@ -34,7 +34,7 @@ body {
     background-image: url('img/group1background.png');
     background-repeat: no-repeat;
     width: 1440px;
-    height: 779px;
+    height: 753px;
     align-items: flex-end;
 }
 
@@ -141,5 +141,5 @@ body {
 
 .emptySpace{
     width: 1440px;
-    height: 138px;
+    height: 105px;
 }
