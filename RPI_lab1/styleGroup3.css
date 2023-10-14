@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'TitlingGothicFBCond';
+    src: url('fonts/TitlingGothicFBCond-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SoletoBold';
+    src: url('fonts/Soleto-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Varveine';
+    src: url('fonts/VerveineRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Soleto';
+    src: url('fonts/Soleto_Trial_Rg.ttf') format('truetype');
+}
+.group3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    width: 1440px;
+    height: 667px;
+    align-items: flex-start;
+}
+.group3Quote1{
+    display: flex;
+    flex-direction: row;
+    font-family: "Verveine";
+    width: 316px;
+    height: 300px;
+    font-size: 261pt;
+    padding-top: 39px;
+    justify-content: flex-end;
+}
+.group3title{
+    display: flex;
+    flex-direction: row;
+    width: 809px;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 10px;
+}
+.group3title h2{
+    font-size: 48pt;
+    font-family: "TitlingGothicFBCond";
+}
+.group3text {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 100px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 13px;
+}
+.group3text p {
+    padding: 0px;
+    margin: 0px;
+    font-size: 22.6pt;
+    max-width: 900px;
+    max-height: 36px;
+    letter-spacing: -0.1px;
+    font-family: "Soleto";
+}
+.group3Quote2{
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: "Verveine";
+    width: 1343px;
+    height: 215px;
+    font-size: 261pt;
+    align-items: flex-end;
+    justify-content: center;
+    padding-top: 29px;
+}

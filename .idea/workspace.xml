@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aea344f-59b1-4899-85fb-68c5fc504ab0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPI_lab1/img/group1LineUnderBackground.png" beforeDir="false" afterPath="$PROJECT_DIR$/RPI_lab1/img/group1LineUnderBackground.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPI_lab1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/RPI_lab1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPI_lab1/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/RPI_lab1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPI_lab1/styleGroup1.css" beforeDir="false" afterPath="$PROJECT_DIR$/RPI_lab1/styleGroup1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPI_lab1/styleGroup2.css" beforeDir="false" afterPath="$PROJECT_DIR$/RPI_lab1/styleGroup2.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -48,7 +50,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\artur\WebstormProjects\RPI\RPI_lab1" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +69,11 @@
       <updated>1696884595107</updated>
       <workItem from="1696884596443" duration="8122000" />
       <workItem from="1696923063154" duration="5244000" />
-      <workItem from="1696928323776" duration="4826000" />
+      <workItem from="1696928323776" duration="20391000" />
+      <workItem from="1697017324284" duration="4105000" />
+      <workItem from="1697115038313" duration="4031000" />
+      <workItem from="1697207015757" duration="2935000" />
+      <workItem from="1697227879429" duration="19062000" />
     </task>
     <task id="LOCAL-00001" summary="Most part of header">
       <created>1696892495115</created>
@@ -69,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696892495116</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First group without slider logic">
+      <created>1696939584403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696939584403</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First group full without links on navigator bar">
+      <created>1696971806938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696971806938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +116,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Most part of header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Most part of header" />
+    <MESSAGE value="First group without slider logic" />
+    <MESSAGE value="First group full without links on navigator bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="First group full without links on navigator bar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1696890263116">
@@ -100,13 +129,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="508" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1696890221651" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1696892581804">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1696971812989">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1696892581804" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1696971812989" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1696887595710">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1696887595710" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1697246799248">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1697246799248" />
   </component>
 </project>
