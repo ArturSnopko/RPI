@@ -14,17 +14,17 @@ prevButton.addEventListener("click", () => {
     if(slideIndex < 1){
         slideIndex = 9;
     }
-    updateSlider();
+    gr1updateSlider();
     image.style.backgroundImage = slideIndex === 4 ? "url('img/group1background.png')": "url('')";
 });
 
 nextButton.addEventListener("click", () => {
     slideIndex = slideIndex  % slides + 1 ;
-    updateSlider();
+    gr1updateSlider();
     image.style.backgroundImage = slideIndex === 4 ? "url('img/group1background.png')": "url('')";
 });
 
-function updateSlider() {
+function gr1updateSlider() {
     updateSlideNumbers();
 }
 

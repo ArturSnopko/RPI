@@ -15,7 +15,7 @@ gr2prevButton.addEventListener("click", () => {
     if (gr2CurrentPos!==gr2minPos){
         gr2CurrentPos--;
     }
-    updateSlider();
+    Gr2updateSlider();
     drawContext();
 });
 
@@ -23,11 +23,11 @@ gr2nextButton.addEventListener("click", () => {
     if (gr2CurrentPos!==gr2maxPos){
         gr2CurrentPos++;
     }
-    updateSlider();
+    Gr2updateSlider();
     drawContext();
 });
 
-function updateSlider() {
+function Gr2updateSlider() {
     if(gr2CurrentPos === gr2minPos){
         gr2prevButton.style.visibility = "hidden";
     } else {
@@ -43,14 +43,14 @@ function updateSlider() {
 function drawContext(){
     gr2image.src = gr2CurrentPos === 1 ? "img/PlayerPhoto.png" : "";
     gr2icon.src = gr2CurrentPos === 1 ? "img/PlayIcon.png" : "";
-    gr2TextUnder.textContent = gr2CurrentPos === 1 ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis vitae tortor nec arcu condimentum ullamcorper quis eget felis.\n" +
-        "                    <br>In posuere elit eget lacus lacinia rutrum eu at leo." : "";
+    gr2TextUnder.innerText = gr2CurrentPos === 1 ? "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis vitae tortor nec arcu condimentum ullamcorper quis eget felis." +
+        "\n     In posuere elit eget lacus lacinia rutrum eu at leo." : "";
     gr2TextTitle.textContent = gr2CurrentPos === 1 ? "Mountain Survival Tutorial" : "";
     gr2EmptyDot.style.left = (-25 + 37 * gr2CurrentPos) + "px";
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    updateSlider();
+    Gr2updateSlider();
     drawContext();
 });
 /*

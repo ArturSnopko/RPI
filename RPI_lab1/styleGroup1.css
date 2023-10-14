@@ -68,12 +68,17 @@ body {
 .group1slider ul li{
 
 }
+
+
+
 #group1right:hover{
+    transition: transform 0.3s ease-in-out;
     transform: scale(1.2);
     cursor: pointer;
 }
 
 #group1left:hover{
+    transition: transform 0.3s ease-in-out;
     transform: scale(1.2);
     cursor: pointer;
 }
@@ -123,6 +128,7 @@ body {
 
 .group1hat ul li {
     margin-right: 17.25px;
+    transition: transform 0.15s ease-in-out;
 }
 
 .group1hat ul li a{
@@ -130,6 +136,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    transition: color 0.15s ease-in-out;
 }
 .group1hat ul li:hover{
     transform: scale(1.2);

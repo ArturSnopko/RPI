@@ -74,7 +74,8 @@
 #Group2PlayIcon{
     position: absolute;
     top: 34.5%;
-    left: 42%
+    left: 42%;
+    transition: transform 0.15s ease-in-out;
 }
 
 #Group2PlayIcon:hover{
@@ -93,14 +94,14 @@
     line-height: 1.2;
     width: 756px;
     height: 200px;
-    font-size: 18.75pt;
+    font-size: 18.05pt;
     font-family: SoletoBold, sans-serif;
     font-weight: 500;
 }
 .slidergroup2 .sliderItself{
     display: flex;
     flex-direction:column;
-    height: 507px;
+    height: 509px;
     width: 349px;
     justify-content: center;
     align-items: center;
@@ -111,10 +112,10 @@
     align-self: normal;
     margin:0;
     padding:0;
-    height:68px;
+    height:66px;
     width:478px;
     font-family:SoletoBold, sans-serif;
-    font-size:20.8pt;
+    font-size:19.8pt;
     color:#4e171b;
     justify-content: space-around;
 }
@@ -149,6 +150,10 @@
     color: #4e171b;
 }
 
+.group2Arrow:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
 #group2ButtonNext{
     visibility: visible;
 }
