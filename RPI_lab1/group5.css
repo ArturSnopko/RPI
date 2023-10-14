@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'TitlingGothicFBCond';
+    src: url('fonts/TitlingGothicFBCond-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SoletoBold';
+    src: url('fonts/Soleto-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Varveine';
+    src: url('fonts/VerveineRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Soleto';
+    src: url('fonts/Soleto_Rg.ttf') format('truetype');
+}
+
+.group5 {
+    width: 1440px;
+    height: 1185px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.group5 .SideSlide {
+    /*display: block;*/
+    width: 175px;
+    height: 1185px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group5 .SideSlide .Slider {
+    height: 500px;
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4px;
+    padding-bottom: 117px;
+
+}
+
+.group5 .SideSlide .Slider .Angle {
+    width: 40px;
+    height: 40px;
+    font-size: 40px;
+    margin-bottom: 5.5px;
+    margin-top: 5.5px;
+    cursor: pointer;
+    transition: width 0.3s, height 0.3s, margin-bottom 0.3s, font-size 0.3s;
+}
+
+.group5 .SideSlide .Slider .Angle:hover {
+    
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    margin-bottom: -4.5px;
+    
+}
+
+.group5 .SideSlide .Slider .Points {
+
+    /*margin: -10px;*/
+    
+    position: relative;
+    height: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.group5 .SideSlide .Slider .Points .WhiteCircle {
+    position:absolute;
+    /*z-index: 1;*/
+    /*margin-top: 0px;
+    margin-bottom: -31.5px;*/
+    top: 5.5px;
+    color: white;
+    font-size: 11px;
+    width: 11px;
+    height: 11px;
+    transition: top 0.2s;
+}
+
+.group5 .SideSlide .Slider .Points .Circle {    
+    width: 22px;
+    height: 22px;
+    /*margin: 15px;*/
+    font-size: 22px;
+}
+
+
+
+.group5 .TextContainer{
+    flex-direction: column;
+    height: 1185px;
+    width: 438px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.group5 .TextContainer .VerticalText{
+    writing-mode: vertical-lr;
+    font-size: 250px;
+    font-family: "TitlingGothicFBCond";
+    transform: rotate(180deg);
+    padding-top: 29px;
+    padding-right: 17px;
+}
+
+
+
+
+.group5 .ImageContainer {
+    position: relative;
+    height: 1067px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.group5 .ImageContainer .G5_Text_1_1 {
+    position: absolute;
+    left: 232px;
+    top: 80px;
+    font-size: 26.5px;
+    font-family: "SoletoBold";
+}
+
+.group5 .ImageContainer .G5_Text_1_2 {
+    position: absolute;
+    left: 555px;
+    top: 41px;
+    font-size: 84px;
+    font-family: "Varveine";
+    font-style: italic;
+
+}
+
+.group5 .ImageContainer .G5_Text_2_1 {
+    position: absolute;
+    top:  1001px;
+    left: 230px;
+    font-size: 26.6px;
+    font-family: "SoletoBold";
+    color: white;
+
+}
+
+.group5 .ImageContainer .G5_Text_2_2 {
+    position: absolute;
+    left: 451px;
+    top: 969px;
+    font-size: 69px;
+    font-family: "Varveine";
+    font-style: italic;
+    color: white;
+
+}
+
+.group6 {
+    height: 1045px;
+    width: 1440px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.group6 .ItemsContainer {
+    height: 819px;
+    width: 1440px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.group6 .ItemsContainer .title {
+
+    height: 165px;
+    margin-top: -37.5px;
+    display: flex;
+    align-items: center;
+}
+
+.group6 .ItemsContainer .title h2 {
+    font-size: 64px;
+    font-family: "TitlingGothicFBCond";
+    margin-bottom: 0px;
+    margin-top: 5px;
+    
+}
+
+.group6 .ItemsContainer .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 212px;
+    align-items: center;
+    justify-content: center;
+    margin-right: -1px;
+}
+
+
+.group6 .ItemsContainer .text p {
+    font-size: 30px;
+    font-family: "Soleto";
+    padding: 0px;
+    margin: -2px;
+}
+
+.group6 .ItemsContainer .SocialMedia {
+    height: 240px;
+    width: 313px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15.5px;
+
+}
+
+.group6 .ItemsContainer .SocialMedia .SocialMediaIco {
+    transition: filter 0.3s;
+    cursor: pointer;
+}
+
+.group6 .ItemsContainer .SocialMedia .SocialMediaIco:hover {
+    filter: brightness(2.5);
+}
