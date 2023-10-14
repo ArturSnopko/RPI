@@ -1,0 +1,271 @@
+@font-face {
+    font-family: 'TitlingGothicFBCond';
+    src: url('fonts/TitlingGothicFBCond-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SoletoBold';
+    src: url('fonts/Soleto-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Varveine';
+    src: url('fonts/VerveineRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Soleto';
+    src: url('fonts/Soleto_Trial_Rg.ttf') format('truetype');
+}
+.group4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1440px;
+    height: 2180px;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: center;
+}
+.group4title{
+    display: flex;
+    width: 580px;
+    height: 320px;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 54px;
+}
+.group4title .text1{
+    display: flex;
+    height: 182px;
+    width: 300px;
+    justify-content: center;
+}
+.group4title .text2{
+    display: flex;
+    height: 221px;
+    width: 400px;
+    margin-left: 32px;
+    justify-content: center;
+}
+.group4title .text1 h2{
+    font-family: "TitlingGothicFBCond";
+    font-size: 48pt;
+}
+.group4title .text2 h2{
+    font-family: "Varveine";
+    font-size: 63pt;
+    font-style: italic;
+    font-weight: 300;
+    color: #1e5a7c;
+}
+.group4text {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 282px;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 11px;
+    padding-right: 53px;
+}
+.group4text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 22.6pt;
+    max-width: 900px;
+    max-height: 36px;
+    letter-spacing: -0.1px;
+    font-family: "Soleto";
+}
+.group4main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1147px;
+    height: 1334px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.group4main .obj1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+    height: 629px;
+    align-content: flex-start;
+    background-color: white;
+}
+.group4main .obj1 .image{
+    width:475px;
+    height: 315px;
+}
+.group4main .obj1 .title{
+    display: flex;
+    width:475px;
+    height: 40px;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+}
+.group4main .obj1 .title h3{
+    font-family: "SoletoBold";
+    font-size:20.2pt;
+    padding-right: 11px;
+    letter-spacing: -0.2px;
+}
+.group4main .obj1 .text{
+    display: flex;
+    flex-direction: column;
+    width:475px;
+    height: 100px;
+    align-items: center;
+    margin-top: 43px;
+}
+.group4main .obj1 .text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17pt;
+    max-width: 419px;
+    max-height: 27px;
+    letter-spacing: -0.1px;
+    font-family: "Soleto";
+    padding-right: 3px;
+}
+
+.group4main .obj2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+    height: 629px;
+    align-content: flex-start;
+    background-color: white;
+}
+.group4main .obj2 .image{
+    width:475px;
+    height: 315px;
+}
+.group4main .obj2 .title{
+    display: flex;
+    width:475px;
+    height: 40px;
+    margin-top: 44px;
+    padding-left: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.group4main .obj2 .title h3{
+    font-family: "SoletoBold";
+    font-size:20.2pt;
+    padding-right: 11px;
+    letter-spacing: -0.2px;
+}
+.group4main .obj2 .text{
+    display: flex;
+    flex-direction: column;
+    width:475px;
+    height: 100px;
+    align-items: center;
+    margin-top: 38.2px;
+}
+.group4main .obj2 .text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17pt;
+    max-width: 419px;
+    max-height: 27px;
+    letter-spacing: -0.1px;
+    font-family: "Soleto";
+    padding-right: 3px;
+}
+
+.group4main .obj3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+    height: 629px;
+    align-content: flex-start;
+    background-color: white;
+}
+.group4main .obj3 .image{
+    width:475px;
+    height: 315px;
+}
+.group4main .obj3 .title{
+    display: flex;
+    width:475px;
+    height: 40px;
+    margin-top: 47px;
+    padding-left: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.group4main .obj3 .title h3{
+    font-family: "SoletoBold";
+    font-size:20.2pt;
+    padding-right: 11px;
+    letter-spacing: -0.2px;
+}
+.group4main .obj3 .text{
+    display: flex;
+    flex-direction: column;
+    width:475px;
+    height: 100px;
+    align-items: center;
+    margin-top: 64px;
+}
+.group4main .obj3 .text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17pt;
+    max-width: 419px;
+    max-height: 27px;
+    letter-spacing: -0.1px;
+    font-family: "Soleto";
+    padding-right: 3px;
+}
+
+.group4main .obj4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 475px;
+    height: 629px;
+    align-content: flex-start;
+    background-color: white;
+}
+.group4main .obj4 .image{
+    width:475px;
+    height: 315px;
+}
+.group4main .obj4 .title{
+    display: flex;
+    width:475px;
+    height: 40px;
+    margin-top: 40px;
+    padding-left: 45.5px;
+    justify-content: center;
+    align-items: center;
+}
+.group4main .obj4 .title h3{
+    font-family: "SoletoBold";
+    font-size:20.2pt;
+    padding-right: 11px;
+    letter-spacing: -0.2px;
+}
+.group4main .obj4 .text{
+    display: flex;
+    flex-direction: column;
+    width:475px;
+    height: 100px;
+    align-items: center;
+    margin-top: 71px;
+    padding-left: 5px;
+}
+.group4main .obj4 .text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 17pt;
+    max-width: 419px;
+    max-height: 27px;
+    letter-spacing: -0.1px;
+    font-family: "Soleto";
+    padding-right: 3px;
+}
