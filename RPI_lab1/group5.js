@@ -19,7 +19,7 @@ gr5_ButtonPrev.addEventListener("click", () => {
     CurSlide--;
     if (CurSlide < 0) {CurSlide = 3;}
     gr5_WtCircle.style.top = `${5.5 + 37 * CurSlide}px`;
-    if (CurSlide != 0)
+    if (CurSlide !== 0)
     {
         gr5_ImgTop.src = "";
         gr5_ImgBottom.src = "";
@@ -44,7 +44,7 @@ gr5_ButtonNext.addEventListener("click", () =>{
     CurSlide++;
     if (CurSlide > 3) {CurSlide = 0;}
     gr5_WtCircle.style.top = `${5.5 + 37 * CurSlide}px`;
-    if (CurSlide != 0)
+    if (CurSlide !== 0)
     {
         gr5_ImgTop.src = "";
         gr5_ImgBottom.src = "";
