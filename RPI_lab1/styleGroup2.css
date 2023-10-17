@@ -177,4 +177,5 @@
     color:white;
     top: 5px;
     left: 20px;
+    transition: left 0.10s ease-in-out;
 }

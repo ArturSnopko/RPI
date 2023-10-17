@@ -48,6 +48,7 @@
 
 }
 
+
 .group5 .SideSlide .Slider .Angle {
     width: 40px;
     height: 40px;
@@ -70,12 +71,11 @@
 .group5 .SideSlide .Slider .Points {
 
     /*margin: -10px;*/
-    
+
     position: relative;
     height: 133px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
@@ -115,7 +115,7 @@
 .group5 .TextContainer .VerticalText{
     writing-mode: vertical-lr;
     font-size: 250px;
-    font-family: "TitlingGothicFBCond";
+    font-family: "TitlingGothicFBCond", sans-serif;
     transform: rotate(180deg);
     padding-top: 29px;
     padding-right: 17px;
@@ -137,7 +137,7 @@
     left: 232px;
     top: 80px;
     font-size: 26.5px;
-    font-family: "SoletoBold";
+    font-family: "SoletoBold", sans-serif;
 }
 
 .group5 .ImageContainer .G5_Text_1_2 {
@@ -145,7 +145,7 @@
     left: 555px;
     top: 41px;
     font-size: 84px;
-    font-family: "Varveine";
+    font-family: "Varveine", sans-serif;
     font-style: italic;
 
 }
@@ -155,7 +155,7 @@
     top:  1001px;
     left: 230px;
     font-size: 26.6px;
-    font-family: "SoletoBold";
+    font-family: "SoletoBold", sans-serif;
     color: white;
 
 }
@@ -165,11 +165,13 @@
     left: 451px;
     top: 969px;
     font-size: 69px;
-    font-family: "Varveine";
+    font-family: "Varveine", sans-serif;
     font-style: italic;
     color: white;
 
 }
+
+
 
 .group6 {
     height: 1045px;
@@ -199,7 +201,7 @@
 
 .group6 .ItemsContainer .title h2 {
     font-size: 64px;
-    font-family: "TitlingGothicFBCond";
+    font-family: "TitlingGothicFBCond", sans-serif;
     margin-bottom: 0px;
     margin-top: 5px;
     
@@ -208,10 +210,8 @@
 .group6 .ItemsContainer .text {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     height: 212px;
-    align-items: center;
     justify-content: center;
     margin-right: -1px;
 }
@@ -219,7 +219,7 @@
 
 .group6 .ItemsContainer .text p {
     font-size: 22.6pt;
-    font-family: "Soleto";
+    font-family: "Soleto", sans-serif;
     padding: 0px;
     margin: -2px;
     letter-spacing: -0.1px;
