@@ -3,40 +3,40 @@
     <head>
         <script src="https://kit.fontawesome.com/44dde346af.js" crossorigin="anonymous"></script>
        <meta charset="UTF-8">
-        <link rel = "stylesheet" href ="style.css">
-        <link rel = "stylesheet" href ="group5.css">
        <title>Hiking</title>
     </head>
     <body>
 
-    <div class = "group1">
+    <div id = "group1background" class = "group1">
+        <script src="jsGroup1.js" defer></script>
+        <link rel = "stylesheet" href ="styleGroup1.css">
+        <link rel = "stylesheet" href ="styleGroup2.css">
+        <link rel = "stylesheet" href ="styleGroup3.css">
+        <link rel = "stylesheet" href ="styleGroup4.css">
+        <div class = "emptySpace">
+        </div>
         <div class = "underline">
             <img src="img/group1LineUnderBackground.png" alt="">
         </div>
 
         <div class ="group1slider">
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
-            <div class="slide"></div>
             <ul>
-                <li> <i class="fa-solid fa-chevron-left fa-2x"></i> </li>
+                <li> <i id = "group1left" class="fa-solid fa-chevron-left fa-2x"></i> </li>
                 <li>
                     <div class = group1numbersInsideSlider>
-                        <span class="prev-number">3</span>
-                        <span class="current-number">4</span>
-                        <span class="next-number">5</span>
+                        <span id = "group1prevnumb" class="prev-number">3</span>
+                        <span id = "group1curnumb" class="current-number">4</span>
+                        <span id = "group1nextnumb" class="next-number">5</span>
                     </div>
                 </li>
-                <li> <i class="fa-solid fa-chevron-right fa-2x"></i></li>
+                <li> <i id = "group1right" class="fa-solid fa-chevron-right fa-2x"></i></li>
 
             </ul>
         </div>
 
         <div class = "group1hat">
             <div class = "logo">
-                <img src ="img/logo.png">
+                <img src ="img/logo.png" alt="">
             </div>
             <nav>
                 <ul>
@@ -50,21 +50,156 @@
         </div>
     </div>
 
-
     <div class = "group2">
+        <script src="jsGroup2.js" defer></script>
+        <link rel = "stylesheet" href ="styleGroup2.css">
+        <h2 class = "tittle">
+            <div class = "firstPart"> THE MOUNTAINS ARE </div>
+            <div class = "secondPart"> WAITING FOR YOU </div>
+        </h2>
+
+        <div class = "slidergroup2">
+            <div class = "PlayerGroup">
+                <div class = "Player">
+                    <img id = "Frame" src = "img/Frame.png" alt="">
+                    <img id = "Group2PlayerPhoto" src = "" alt="">
+                    <img id = "Group2PlayIcon" src = "img/PlayIcon.png" alt="">
+                </div>
+                <h4 id ="Group2SliderText">
+                </h4>
+            </div>
+            <div class = "sliderItself">
+                <h3 id = "Group2SliderTitle">
+
+                </h3>
+                <div class = "slidergroup2Dots">
+
+                    <div class="group2Arrow" id = "group2ButtonPrev"><i class = "fa fa-chevron-left"></i></div>
+                    <ul class="Group2SliderDots">
+                        <li id = "EmptyCircle"><i class = "fa fa-circle"></i></li>
+                        <li class = "Group2SliderCircle"><i class = "fa fa-circle"></i></li>
+                        <li class = "Group2SliderCircle"><i class = "fa fa-circle"></i></li>
+                        <li class = "Group2SliderCircle"><i class = "fa fa-circle"></i></li>
+                        <li class = "Group2SliderCircle"><i class = "fa fa-circle"></i></li>
+                    </ul>
+                    <div class="group2Arrow" id = "group2ButtonNext"><i  class = "fa fa-chevron-right"></i></div>
+
+
+                </div>
+            </div>
+        </div>
 
     </div>
 
     <div class = "group3">
-
+        <link rel = "stylesheet" href ="styleGroup3.css">
+        <div class="group3Quote1">“</div>
+        <div class="group3title">
+            <h2>ABOUT US</h2>
+        </div>
+        <div class="group3text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis vitae </p>
+            <p>tortor nec arcu condimentum ullamcorper quis eget felis. </p>
+            <p>In posuere elit eget lacus lacinia rutrum eu at leo. </p>
+        </div>
+        <div class="group3Quote2">
+            ”
+        </div>
     </div>
 
     <div class = "group4">
-
+        <link rel = "stylesheet" href ="styleGroup4.css">
+        <div class="group4title">
+            <div class="text1">
+                <h2>CHOOSE</h2>
+            </div>
+            <div class="text2">
+                <h2>YOUR TOUR</h2>
+            </div>
+        </div>
+        <div class="group4text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis vitae</p>
+            <p>tortor nec arcu condimentum ullamcorper quis eget felis. </p>
+            <p>In posuere elit eget lacus lacinia rutrum eu at leo. </p>
+        </div>
+        <div class="group4main">
+            <div class="obj1">
+                <div class="image">
+                    <img src="img/Group4_1.png" alt="">
+                </div>
+                <div class="title">
+                    <h3>Lake in the mountains</h3>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit.Duis vitae tortor nec</p>
+                    <p>arcu condimentum ullamcorper</p>
+                    <p>quis eget felis.</p>
+                </div>
+                <a href="#">
+                    <span class="link"></span>
+                </a>
+            </div>
+            <div class="obj2">
+                <div class="image">
+                    <img src="img/Group4_2.png" alt="">
+                </div>
+                <div class="title">
+                    <h3>Lake in the forest</h3>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit.Duis vitae tortor nec</p>
+                    <p>arcu condimentum ullamcorper</p>
+                    <p>quis eget felis.</p>
+                </div>
+                <a href="#">
+                    <span class="link"></span>
+                </a>
+            </div>
+            <div class="obj3">
+                <a href="#"></a>
+                <div class="image">
+                    <img src="img/Group4_3.png" alt="">
+                </div>
+                <div class="title">
+                    <h3>Snowy mountains</h3>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit.Duis vitae tortor nec</p>
+                    <p>arcu condimentum ullamcorper</p>
+                    <p>quis eget felis.</p>
+                </div>
+                <a href="#">
+                    <span class="link"></span>
+                </a>
+            </div>
+            <div class="obj4">
+                <a href="#"></a>
+                <div class="image">
+                    <img src="img/Group4_4.png" alt="">
+                </div>
+                <div class="title">
+                    <h3>Group hiking</h3>
+                </div>
+                <div class="text">
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>adipiscing elit.Duis vitae tortor nec</p>
+                    <p>arcu condimentum ullamcorper</p>
+                    <p>quis eget felis.</p>
+                </div>
+                <a href="#">
+                    <span class="link"></span>
+                </a>
+            </div>
+        </div>
     </div>
+    <div class="stacked-linear"></div>
 
 
     <div class = "group5">
+        <link rel = "stylesheet" href ="group5.css">
         <script src="group5.js" defer></script>
         <aside>
             <div class = "SideSlide">

@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'TitlingGothicFBCond';
+    src: url('fonts/TitlingGothicFBCond-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'SoletoBold';
+    src: url('fonts/Soleto-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Varveine';
+    src: url('fonts/Verveine.woff') format('woff');
+}
+
+
+.group2{
+    height: 1000px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle{
+    align-self:  center;
+    height: 95px;
+    width:1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tittle .firstPart{
+    font-family: TitlingGothicFBCond, sans-serif;
+    font-weight: bold;
+    font-size: 48.1pt;
+    margin-left: -2.5pt;
+}
+
+.tittle .secondPart{
+    display:flex;
+    align-items:flex-end;
+    font-family: Varveine, sans-serif;
+    font-size: 63pt;
+    font-style: italic;
+    font-weight: 500;
+    color: #4e171d;
+    transform: rotate(-0.9deg);
+}
+
+
+
+.slidergroup2{
+    display:flex;
+    flex-direction: row;
+    height: 900px;
+    width: 1440px;
+}
+
+.slidergroup2 .PlayerGroup{
+    display: flex;
+    flex-direction:column;
+    height: 772px;
+    width: 908px;
+    justify-content: center;
+    align-items: center;
+}
+.slidergroup2 .PlayerGroup .Player{
+    width: 756px;
+    height: 447px;
+    position:relative;
+}
+
+#Group2PlayIcon{
+    position: absolute;
+    top: 34.5%;
+    left: 42%;
+    transition: transform 0.15s ease-in-out;
+}
+
+#Group2PlayIcon:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#Group2PlayerPhoto{
+    position: absolute;
+    top: 28px;
+    left: 28px;
+}
+
+#Group2SliderText{
+    margin-left: 12px;
+    line-height: 1.2;
+    width: 756px;
+    height: 200px;
+    font-size: 18.05pt;
+    font-family: SoletoBold, sans-serif;
+    font-weight: 500;
+}
+.slidergroup2 .sliderItself{
+    display: flex;
+    flex-direction:column;
+    height: 509px;
+    width: 349px;
+    justify-content: center;
+    align-items: center;
+}
+
+#Group2SliderTitle{
+    display:flex;
+    align-self: normal;
+    margin:0;
+    padding:0;
+    height:66px;
+    width:478px;
+    font-family:SoletoBold, sans-serif;
+    font-size:19.8pt;
+    color:#4e171b;
+    justify-content: space-around;
+}
+
+.slidergroup2 .sliderItself .slidergroup2Dots{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Group2SliderDots{
+    margin-right: 5px;
+    width:148px;
+    flex-wrap:nowrap;
+    padding:0;
+    position:relative;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.group2Arrow{
+    width: 33px;
+    height: 40px;
+    font-size: 40px;
+    cursor: pointer;
+    color: #4e171b;
+}
+
+.group2Arrow:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+#group2ButtonNext{
+    visibility: visible;
+}
+#group2ButtonPrev{
+    margin-left:100px;
+    visibility: visible;
+}
+
+.Group2SliderCircle{
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+    color: #4e171b;
+}
+
+#EmptyCircle{
+    width: 12px;
+    height :12px;
+    font-size:12px;
+    position:absolute;
+    color:white;
+    top: 5px;
+    left: 20px;
+}
