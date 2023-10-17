@@ -19,7 +19,6 @@
     src: url('fonts/VarveineRegular') format('ttf');
 }
 
-
 body {
     margin: 0;
     max-width: 1440px;
@@ -73,13 +72,13 @@ body {
 
 #group1right:hover{
     transition: transform 0.3s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.18);
     cursor: pointer;
 }
 
 #group1left:hover{
     transition: transform 0.3s ease-in-out;
-    transform: scale(1.2);
+    transform: scale(1.18);
     cursor: pointer;
 }
 
