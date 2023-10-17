@@ -218,10 +218,11 @@
 
 
 .group6 .ItemsContainer .text p {
-    font-size: 30px;
+    font-size: 22.6pt;
     font-family: "Soleto";
     padding: 0px;
     margin: -2px;
+    letter-spacing: -0.1px;
 }
 
 .group6 .ItemsContainer .SocialMedia {
