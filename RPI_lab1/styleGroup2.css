@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'SoletoBold';
-    src: url('fonts/Soleto-Regular.woff') format('woff');
+    font-family: 'SoletoRegu';
+    src: url('fonts/Soleto_Rg.ttf') format('truetype');
 }
 
 @font-face {
@@ -91,12 +91,12 @@
 
 #Group2SliderText{
     margin-left: 12px;
-    line-height: 1.2;
+    line-height: 1.18;
     width: 756px;
     height: 200px;
-    font-size: 18.05pt;
-    font-family: SoletoBold, sans-serif;
-    font-weight: 500;
+    font-size: 18.75pt;
+    font-family: SoletoRegu, sans-serif;
+    font-weight: lighter;
 }
 .slidergroup2 .sliderItself{
     display: flex;
@@ -110,12 +110,12 @@
 #Group2SliderTitle{
     display:flex;
     align-self: normal;
-    margin:0;
+    margin: 0 0 0 1px;
     padding:0;
     height:66px;
     width:478px;
     font-family:SoletoBold, sans-serif;
-    font-size:19.8pt;
+    font-size:20pt;
     color:#4e171b;
     justify-content: space-around;
 }
