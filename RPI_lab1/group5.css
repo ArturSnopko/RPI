@@ -176,7 +176,7 @@
 
 
 .group6 {
-    height: 1045px;
+    height: 1035px;
     width: 1440px;
     display: flex;
     align-items: flex-end;
@@ -196,7 +196,7 @@
 .group6 .ItemsContainer .title {
 
     height: 165px;
-    margin-top: -37.5px;
+    margin-top: -18.5px;
     display: flex;
     align-items: center;
 }
